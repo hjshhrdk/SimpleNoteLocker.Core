@@ -3,11 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.10.34928.147
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleNoteLocker.Core", "SimpleNoteLocker.Core.csproj", "{B9129C13-4585-4B62-B183-B06270FA0F6E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SimpleNoteLocker.Core", "SimpleNoteLocker.Core.csproj", "{B9129C13-4585-4B62-B183-B06270FA0F6E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleNoteLocker.App", "..\SimpleNoteLocker.App\SimpleNoteLocker.App.csproj", "{A1258A5B-50E7-43DB-B081-E8BC5123037A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SimpleNoteLocker.App", "..\SimpleNoteLocker.App\SimpleNoteLocker.App.csproj", "{A1258A5B-50E7-43DB-B081-E8BC5123037A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleNoteLocker.Tests", "..\SimpleNoteLocker.Tests\SimpleNoteLocker.Tests.csproj", "{FD6197EF-5E21-4B4E-8982-4AA6BE2069AC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SimpleNoteLocker.Tests", "..\SimpleNoteLocker.Tests\SimpleNoteLocker.Tests.csproj", "{FD6197EF-5E21-4B4E-8982-4AA6BE2069AC}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "SimpleNoteLocker.Setup", "..\SimpleNoteLocker.Setup\SimpleNoteLocker.Setup.vdproj", "{71B977CE-8CF8-4889-AB39-7C98C51E2C81}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,8 @@ Global
 		{FD6197EF-5E21-4B4E-8982-4AA6BE2069AC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FD6197EF-5E21-4B4E-8982-4AA6BE2069AC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FD6197EF-5E21-4B4E-8982-4AA6BE2069AC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{71B977CE-8CF8-4889-AB39-7C98C51E2C81}.Debug|Any CPU.ActiveCfg = Debug
+		{71B977CE-8CF8-4889-AB39-7C98C51E2C81}.Release|Any CPU.ActiveCfg = Release
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
